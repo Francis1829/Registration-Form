@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    height: 100vh;
+    font-family: 'Nimbus Sans L', sans-serif;
+    background-image: url(/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards{
+    height: 100vh;
+}
+
+.card_body{
+    padding: 20px;
+    border-radius: 16px;
+    width: 650px;
+    background-color: rgba(255, 255, 255, 0.355);
+    backdrop-filter: blur(20px);
+}
+
+.btnn{
+    width: 150px;
+    margin: 10px 20px;
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #7c148f;
+    color: #fff;
+}
+
+.ErrorM {
+    font-size: .8rem;
+    color: rgba(255, 0, 0, 0.912);
+    letter-spacing: 2px;
+  }
